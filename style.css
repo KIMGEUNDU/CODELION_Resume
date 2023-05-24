@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Pretendard-Regular';
+  margin: 0;
+  padding: 0;
+  background-color: #FFD4D4;
+}
+
+div {
+  background-color: #FFFFE8;
+}
+
+.container {
+  width: 50%;
+  margin: 80px auto;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(217, 217, 217);
+  padding: 30px;
+  background-color: #FFFFE8;
+}
+
+.header {
+  text-align: right;
+}
+
+.header h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+  color: #AACB73;
+  background-color: #FFFFE8;
+}
+
+.header p {
+  font-weight: bold;
+  padding-top: 20px;
+  color: rgb(84, 84, 84);
+  background-color: #FFFFE8;
+}
+
+.about p {
+  font-size: 18px;
+  font-weight: light;
+  background-color: #FFFFE8;
+}
+
+h2 {
+  font-weight: lighter;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  padding-bottom: 10px;
+  margin: 20px 0;
+  font-size: 30px;
+  color: #AACB73;
+  background-color: #FFFFE8;
+}
+
+.div-box {
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #FFFFE8;
+}
+
+section {
+  line-height: 30px;
+}
+
+.company {
+  float: left;
+  color: #CDE990;
+  background-color: #FFFFE8;
+}
+
+.date {
+  float: right;
+  color: #CDE990;
+  background-color: #FFFFE8;
+}
+
+.title {
+  font-size: 15px;
+  background-color: #FFFFE8;
+}
+
+.exp {
+  font-size: 13px;
+  padding-left: 20px;
+  background-color: #FFFFE8;
+}
+
+.sns {
+  margin-top: 50px;
+  text-align: right;
+  background-color: #FFFFE8;
+}
+
+.sns a {
+  background-color: #FFFFE8;
+}
+
+.sns img {
+  width: 30px;
+}
+
+footer {
+  color: white;
+  background-color: rgb(123, 123, 123);
+  padding: 40px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(123, 123, 123);
+}
